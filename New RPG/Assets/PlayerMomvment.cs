@@ -22,11 +22,11 @@ public class PlayerMomvment : MonoBehaviour {
 
         if( Input.GetKey("d"))
         {
-            rb.AddForce(SideForce * Time.deltaTime, 0, 0); // Only if condition is met
+            rb.AddForce(SideForce * Time.deltaTime, 0, 0, ForceMode.VelocityChange); // Only if condition is met
         }
         if (Input.GetKey("a"))
         {
-            rb.AddForce(-SideForce * Time.deltaTime, 0, 0);
+            rb.AddForce(-SideForce * Time.deltaTime, 0, 0, ForceMode.VelocityChange);
         }
     }
 }

@@ -4,11 +4,13 @@ using UnityEngine;
 
 public class PlayerCollision : MonoBehaviour {
 
-    void OnCollisionEnter(UnityEngine.Collision collisioninfo)
+    public PlayerMomvment Momvment;
+
+    private void OnCollisionEnter(Collision collisioninfo)
     {
-        if (collisioninfo.gameObject.tag == "Obstical")
+        if (collisioninfo.collider.tag == "Obsticle")
         {
-            Debug.Log("We hit an obstical");
+            Momvment.enabled = false;
         }
     }
 }
