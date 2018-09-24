@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 875c1df27cf586a45b81dad4089a2f0b, type: 3}
+  m_Name: Dark Steel Armor
+  m_EditorClassIdentifier: 
+  itemIcon: {fileID: 21300000, guid: e224731b91dec134a9042cf61e29ad02, type: 3}
+  itemName: Dark Steel Armor
+  SellPrice: 1000
+  BuyPrice: 2000
+  itemType: 0
+  itemRarity: 3
+  Description: 
+  IsStackable: 0
+  LevelReq: 15
+  mainStat:
+    TheStat: 2
+    TheValue: 40
+  gearMainType: 1
+  Attributes:
+  - MyAttribute: {fileID: 11400000, guid: 5e749e7fee27d1644b0d90349bac22c7, type: 2}
+    Value: 250
+  - MyAttribute: {fileID: 11400000, guid: 7066ce2caeb5ea54ebcc838801a24ab2, type: 2}
+    Value: 20

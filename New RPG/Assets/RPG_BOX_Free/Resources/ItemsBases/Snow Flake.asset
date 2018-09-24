@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 875c1df27cf586a45b81dad4089a2f0b, type: 3}
+  m_Name: Snow Flake
+  m_EditorClassIdentifier: 
+  itemIcon: {fileID: 21300000, guid: 4a02d987f50b02c44b83ebe15056e15e, type: 3}
+  itemName: Snow Flake
+  SellPrice: 250
+  BuyPrice: 500
+  itemType: 1
+  itemRarity: 0
+  Description: 'Used to craft Freezing
+
+    Weapons.'
+  IsStackable: 0
+  LevelReq: 0
+  mainStat:
+    TheStat: 0
+    TheValue: 0
+  gearMainType: 0
+  Attributes: []

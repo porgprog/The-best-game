@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 875c1df27cf586a45b81dad4089a2f0b, type: 3}
+  m_Name: Pineapple
+  m_EditorClassIdentifier: 
+  itemIcon: {fileID: 21300000, guid: 785d2d96ad390af46b1508308b9c1735, type: 3}
+  itemName: Pineapple
+  SellPrice: 50
+  BuyPrice: 100
+  itemType: 2
+  itemRarity: 1
+  Description: 'USE: Restore 1500 HP'
+  IsStackable: 1
+  LevelReq: 0
+  mainStat:
+    TheStat: 0
+    TheValue: 0
+  gearMainType: 0
+  Attributes: []
